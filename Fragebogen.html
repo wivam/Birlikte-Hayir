@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title> Fragebogen</title>
+        <style>
+            textarea {
+                border: 2px solid #00008b;  /* dunkelblau */
+                padding: 4px;
+            }
+        </style>
+    <style>
+    body {
+        background-color: #e0f4ff;  /* helles Blau */
+    }
+
+    textarea {
+        border: 2px solid #00008b;
+        padding: 4px;
+    }
+
+    label {
+        margin-right: 20px;
+    }
+   .logo-rechts {
+    position: absolute;
+    height: 170px;         
+    margin-left: 250px;     
+    vertical-align: middle;
+}
+
+</style>
+
+</head>
+<body>
+   
+
+<h1>
+    Fragebogen
+    <img src="EppM.jpg.jpeg" alt="Logo" class="logo-rechts">
+</h1>
+
+<table>
+     <h3> Allgemeine Frage</h3>
+            <h4> Wie zufrieden bist du insgesamt mit der Moschee? </h4>
+        
+ <p>
+    <label>
+        <input type="radio" name="zufriedenheit_moschee" value="zufrieden">
+        zufrieden
+    </label>
+    <label>
+        <input type="radio" name="zufriedenheit_moschee" value="teils">
+        Teils/Teils
+    </label>
+    <label>
+        <input type="radio" name="zufriedenheit_moschee" value="unzufrieden">
+        unzufrieden
+    </label>
+</p>
+
+<p>Warum?</p>
+<textarea name="warum_moschee" rows="6" cols="60"></textarea>
+
+<h3> Wünsche </h3>
+<p> <h4> Welche Angebote wünscht du dir zusätzlich im Verein? </h4></p>
+<textarea name="Angebot" rows="6" cols=" 60" ></textarea>
+<p> <h4> Was sollten wir deiner Meinung nach auf jeden Fall beibehalten, weil es dir so gut gefällt? </h4></p>
+<textarea name="beibehalten" rows="6" cols=" 60" ></textarea>
+
+<h3> Verbesserungen </h3>
+<p> <h4> In welchem Bereich siehst du den größten Verbesserungsbedarf? </h4></p>
+
+
+<p>
+    <label>
+        <input type="checkbox" name="verbesserung" value="Organisation">
+        Organisation
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="verbesserung" value="Kommunikation">
+        Kommunikation zwischen Moschee Mitgliedern und Besuchern
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="verbesserung" value="Arbeit_am_Kind">
+        Arbeit am Kind
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="verbesserung" value="Veranstaltungen">
+        Veranstaltungen/Vorträge
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="verbesserung" value="Workshops">
+        Workshop/Kurse
+    </label><br>
+
+    <label>
+        <input type="checkbox" name="verbesserung" value="Kommentar">
+        Kommentar:
+    </label>
+</p>
+<textarea name="Kommentar" rows="6" cols=" 60" 
+> </textarea>
+
+
+
+
+<h3> Freies Feedback </h3>
+<p> <h4> Hier ist Platz für alles, was noch gesagt werden soll (Lob/Kritik/Ideen/usw.): </h4></p>
+<textarea name="Kommentar" rows="6" cols=" 60" ></textarea>
+
+<p><button type="submit">Absenden</button></p>
+
+</body>
+</html>
